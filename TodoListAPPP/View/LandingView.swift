@@ -8,6 +8,15 @@
 import SwiftUI
 
 struct LandingView: View {
+    //MARK: STORED PROPERTIES
+
+    //The item currently being added
+    @State var newItemDescription = ""
+
+    //The search text
+    @State var searchText = ""
+    
+    //MARK: COMPUTED PROPERTIES
     var body: some View {
         VStack {
             Image(systemName: "globe")
