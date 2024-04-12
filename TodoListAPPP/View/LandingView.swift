@@ -18,15 +18,54 @@ struct LandingView: View {
     
     //MARK: COMPUTED PROPERTIES
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView{
+
+            
+                    VStack{
+
+                        List{
+
+                            ItemView(
+                                currentItem: firstItem
+                            )
+                            ItemView(
+                                currentItem: secondItem
+                            )
+                            ItemView(
+                                currentItem: thirdItem
+                            )
+                            
+                        }
+                        .searchable(
+                            text: $searchText
+                        )
+                        
+                        HStack{
+                            TextField(
+                                "Enter a to-do item",
+                                text: $newItemDescription
+                            )
+                            
+                            Button(
+                                "Add"
+                            ){
+                                //Add the new to-do item
+                            }
+                            .font(
+                                .caption
+                            )
+                        }
+                        .padding(
+                            20
+                        )
+                    }
+                    .navigationTitle(
+                        "To do"
+                    )
+                }
+            }
         }
-        .padding()
-    }
-}
+
 
 #Preview {
     LandingView()
