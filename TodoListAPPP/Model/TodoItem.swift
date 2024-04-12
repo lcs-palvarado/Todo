@@ -13,7 +13,7 @@ struct TodoItem: Identifiable {
     var done: Bool
 }
 
-let firstItem = TodoItem(title: "study for Chemistry quiz", done: false)
+let firstItem = TodoItem(title: "Study for Chemistry quiz", done: false)
 
     let secondItem = TodoItem(title: "Finish Computer Science assignment", done: true)
 

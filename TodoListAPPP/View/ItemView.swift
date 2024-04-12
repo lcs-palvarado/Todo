@@ -16,9 +16,7 @@ struct ItemView: View {
 
                     title: {
 
-                        Text(
-                            currentItem.title
-                        )
+                        Text(currentItem.title)
                         
                     },
                     icon: {
