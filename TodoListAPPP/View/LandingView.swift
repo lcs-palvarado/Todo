@@ -28,6 +28,16 @@ struct LandingView: View {
                 List (todos){ todo in
                     
                     ItemView(currentItem: todo)
+                    // Delete a to do item
+                        .swipeActions {
+                           Button(
+                           "Delete",
+                           role: .destructive,
+                           action: {
+                               delete(todo)
+                           }
+                           )
+                        }
                     
                 }
                 .searchable(text: $searchText)
