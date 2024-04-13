@@ -33,9 +33,9 @@ struct ItemView: View {
     }
 }
 
-#Preview {
-    List{
-        ItemView(currentItem: Binding.constant(firstItem))
-        ItemView(currentItem: Binding.constant(secondItem))
-        }
-    }
+//#Preview {
+    //List{
+        //ItemView(currentItem: Binding.constant(firstItem))
+        //ItemView(currentItem: Binding.constant(secondItem))
+        //}
+    //}
