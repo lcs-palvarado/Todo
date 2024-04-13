@@ -16,7 +16,7 @@ struct ItemView: View {
 
                     title: {
 
-                        Text(currentItem.title)
+                        TextField("Enter a to-do item", text: $currentItem.title, axis: .vertical)
                         
                     },
                     icon: {
