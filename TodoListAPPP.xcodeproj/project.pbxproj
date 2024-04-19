@@ -13,6 +13,7 @@
 		47342A612BC8AC8D000DB11B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47342A602BC8AC8D000DB11B /* Preview Assets.xcassets */; };
 		47342A6A2BC8ADE5000DB11B /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47342A692BC8ADE5000DB11B /* ItemView.swift */; };
 		47342A6C2BC8AEC7000DB11B /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47342A6B2BC8AEC7000DB11B /* TodoItem.swift */; };
+		47A3F09A2BD1FA35001A0C4A /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A3F0992BD1FA35001A0C4A /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		47342A602BC8AC8D000DB11B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		47342A692BC8ADE5000DB11B /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 		47342A6B2BC8AEC7000DB11B /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		47A3F0992BD1FA35001A0C4A /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				47342A6B2BC8AEC7000DB11B /* TodoItem.swift */,
+				47A3F0982BD1FA02001A0C4A /* Helpers */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -87,6 +90,14 @@
 				47342A692BC8ADE5000DB11B /* ItemView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		47A3F0982BD1FA02001A0C4A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				47A3F0992BD1FA35001A0C4A /* Functions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 				47342A5C2BC8AC8A000DB11B /* LandingView.swift in Sources */,
 				47342A6A2BC8ADE5000DB11B /* ItemView.swift in Sources */,
 				47342A6C2BC8AEC7000DB11B /* TodoItem.swift in Sources */,
+				47A3F09A2BD1FA35001A0C4A /* Functions.swift in Sources */,
 				47342A5A2BC8AC8A000DB11B /* TodoListAPPPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

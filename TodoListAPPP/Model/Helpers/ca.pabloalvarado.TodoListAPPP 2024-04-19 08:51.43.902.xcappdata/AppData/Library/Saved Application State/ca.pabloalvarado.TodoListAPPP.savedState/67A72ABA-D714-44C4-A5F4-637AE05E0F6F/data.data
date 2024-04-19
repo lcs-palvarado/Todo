@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CanvasRestorationUserActivityTypeKey</key>
+	<string>com.apple.SwiftUI.stateRestoration</string>
+	<key>CanvasRestorationUserActivityUserInfoDataKey</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICV8QKENhbnZhc1Jlc3RvcmF0aW9uVXNlckFj
+	dGl2aXR5VXNlckluZm9LZXmAAaULDBUWF1UkbnVsbNMNDg8QEhRXTlMua2V5c1pOUy5v
+	YmplY3RzViRjbGFzc6ERgAKhE4ADgARfEBljb20uYXBwbGUuU3dpZnRVSS5zY2VuZUlE
+	XxCIU3dpZnRVSS5Nb2RpZmllZENvbnRlbnQ8VG9kb0xpc3RBUFBQLkxhbmRpbmdWaWV3
+	LCBfU3dpZnREYXRhX1N3aWZ0VUkuKHVua25vd24gY29udGV4dCBhdCAkMjNjYWUzNTMw
+	KS5DdXN0b21Nb2RlbENvbnRhaW5lclZpZXdNb2RpZmllcj4tMdIYGRobWiRjbGFzc25h
+	bWVYJGNsYXNzZXNcTlNEaWN0aW9uYXJ5ohocWE5TT2JqZWN0AAgAEQAaACQAKQAyADcA
+	SQBMAHcAeQB/AIUAjACUAJ8ApgCoAKoArACuALAAzAFXAVwBZwFwAX0BgAAAAAAAAAIB
+	AAAAAAAAAB0AAAAAAAAAAAAAAAAAAAGJ
+	</data>
+</dict>
+</plist>
